@@ -28,3 +28,9 @@ function Counter() {
 }
 
 export default Counter;
+
+// Props are the way to pass data from the parent to child components like passing state variables, props are immutable means that child component does not able to change the value.
+
+// There are 2 ways to create the components in React Functional Components (creating a function and then returning JSX) (modern way) 2. Class Components
+
+// In functional components the props are send to the arguments as objects that you can destructure
