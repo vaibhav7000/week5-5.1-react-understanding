@@ -11,3 +11,14 @@
 // When we provide the updated state / data to the React, it updates the virtual DOM / creates new Virtual DOM, compares it with the acutal DOM object and efficiently updates the real DOM.
 
 // React only changes those parts of actual DOM that has been changed in virtual DOM
+
+// React Jargons
+// 1. "State" -> data / object present inside the website that is dynamic (that might gets updated over the period of time)
+
+// 2. "Components" -> Building blocks of the websites. (for me) -> These basically are functions that throws HTML + JS. React provides special syntax to call these functions like <ComponentName />
+
+// 3. "Re-rendering" -> When the state gets updated, we have to show that on the screen, for this React refreshes the screen and this process is called "re-rendering". 
+
+// React provides apis to provide the updated content / data / state and then updates the DOM / re-rendering
+
+// State variables represents "dynamic data" ( content that get changed over time ) present on the website. => Content that is dynamic should always be wrapped inside the state. (Using this React conitnously watches that data and when it gets changed it re-renders / refresh that state)
