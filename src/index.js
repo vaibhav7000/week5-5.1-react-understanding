@@ -22,3 +22,9 @@
 // React provides apis to provide the updated content / data / state and then updates the DOM / re-rendering
 
 // State variables represents "dynamic data" ( content that get changed over time ) present on the website. => Content that is dynamic should always be wrapped inside the state. (Using this React conitnously watches that data and when it gets changed it re-renders / refresh that state)
+
+
+
+
+// different ways to import and export the functions / variables in nodeJS application
+// currently using type: "module"
